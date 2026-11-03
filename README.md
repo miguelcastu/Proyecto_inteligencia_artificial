@@ -16,11 +16,12 @@ academic report. The four tracked files matched
 at the 3 November 2026 audit. Both repositories and their histories are retained;
 the project directory uses `Proyecto_inteligencia_artificial` as its primary entry.
 
-Run from the repository root with Python 3 after updating the input path in
-`main.py`: the historical script currently uses an absolute author-machine CSV
-path. Only the standard library is imported. A fresh-clone execution and policy
-optimality have not been verified in this audit; do not treat this small academic
-model as a real traffic controller.
+With Python 3, run `python main.py`. The input is resolved beside the script,
+so no author-machine CSV path is required. Only the standard library is imported.
+The audit executed the script from both the repository root and another working
+directory; it completed with the bundled observations. Policy optimality has not
+been independently established; do not treat this academic model as a real traffic
+controller.
 
 ## Original problem and assignment
 
