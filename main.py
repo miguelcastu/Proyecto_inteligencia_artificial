@@ -1,6 +1,7 @@
 import csv
+from pathlib import Path
 word = ''
-csv = csv.reader(open(r'C:/Users/migue/Data.csv'))
+csv = csv.reader(open(Path(__file__).with_name('Data.csv'), newline='', encoding='utf-8'))
 ListOfWords = []
 list = []
 for i in csv:
