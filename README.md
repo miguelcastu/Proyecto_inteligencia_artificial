@@ -1,3 +1,30 @@
+# Traffic-Light Control with a Markov Decision Process
+
+A historical Python assignment estimating state-transition probabilities from
+traffic observations and applying value iteration to choose a traffic-light
+policy. The state space has three directions with High/Low traffic levels;
+the all-Low state is the terminal target.
+
+[Engineering portfolio](https://github.com/miguelcastu/miguelcastu) · [Project directory](https://github.com/miguelcastu/miguelcastu/blob/main/PROJECTS.md)
+
+## Implementation and reproducibility
+
+[main.py](main.py) implements transition counting and iterative state values.
+[Data.csv](Data.csv) supplies the observations; the PDF preserves the original
+academic report. The four tracked files matched
+[the companion repository](https://github.com/miguelcastu/ArtificialInteligence) byte-for-byte
+at the 3 November 2026 audit. Both repositories and their histories are retained;
+the project directory uses `Proyecto_inteligencia_artificial` as its primary entry.
+
+Run from the repository root with Python 3 after updating the input path in
+`main.py`: the historical script currently uses an absolute author-machine CSV
+path. Only the standard library is imported. A fresh-clone execution and policy
+optimality have not been verified in this audit; do not treat this small academic
+model as a real traffic controller.
+
+## Original problem and assignment
+
+
 # ArtificialInteligence
 ## Problem statement
 A traffic intersection can be approached by vehicles from the North, from the East and from the West.
